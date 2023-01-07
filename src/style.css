@@ -1,0 +1,40 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    background: #000000;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100vh;
+
+}
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+
+#play {
+    z-index: 2;
+    border: 2px solid white;
+    cursor: pointer;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 30px;
+    width: 100px;
+    margin-bottom: 150px;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
